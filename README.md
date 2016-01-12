@@ -7,5 +7,5 @@ Pipeline:
 
 To dos:
 - Building adjacency matrix between recipes and ingredients weighted by recipe rating
-- Building relevance scores applying random walks algorithm (http://research.ijcaonline.org/volume79/number2/pxc3891478.pdf)
+- Building relevance scores applying random walks algorithm (http://people.cs.pitt.edu/~huiming/research/icdm05.pdf)
 - Building recipe search interface suggesting iteratively top 10 ingredients to add based on first ingredient search 
