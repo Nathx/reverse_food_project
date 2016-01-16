@@ -11,6 +11,7 @@ Pipeline:
 Final planned usage:
 * Enter ingredient
 * Filter recipe type (breakfast, cheap, vegetarian, etc.)
+
 While [Number of compatible recipes] > 3:
    * Pick ingredient to add amongs selection of 10 most relevant
 * Pick recipe with selected ingredients
