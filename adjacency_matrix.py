@@ -6,6 +6,7 @@
 import numpy as np
 import pymongo
 import cPickle
+import scipy.sparse as sps
 
 # In[86]:
 
@@ -37,7 +38,8 @@ if __name__ == '__main__':
     ing_db = db.ingredients
     adj_mat = extract_adj_mat(rec_db, ing_db)
     
+    adj_mat_csc = sps.csc_matrix(adj_mat)
     with open('adj_mat.pick', 'w') as matfile:
-        cPickle.dump(adj_mat, matfile)
+        cPickle.dump(adj_mat_csc, matfile)
 
 
